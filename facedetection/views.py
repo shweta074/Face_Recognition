@@ -79,7 +79,7 @@ class RecognizeView(View):
                     known_encodings, encoding, tolerance=0.5
                 )
                 name = "Unknown"
-
+ 
                 if True in matches:
                     name = known_names[matches.index(True)]
 
